@@ -17,3 +17,16 @@ body{
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
     
 }
+
+// const $ = document.querySelector.bind(document)
+// const $$ = document.querySelectorAll.bind(document)
+
+// document.addEventListener('DOMContentLoaded',()=>{
+    
+// })
+$('.slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    dots:true
+});
